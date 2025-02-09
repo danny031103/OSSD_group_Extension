@@ -1,74 +1,36 @@
-## Our Pledge
+## Our Commitment  
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to make participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, sex characteristics, gender identity and expression,
-level of experience, education, socio-economic status, nationality, personal
-appearance, race, religion, or sexual identity and orientation.
+We’re committed to keeping this project a welcoming and inclusive space for everyone. Regardless of your background, you should feel safe and respected here as well as feel free to contribute.  
 
-## Our Standards
+## What We Expect  
 
-Examples of behavior that contributes to creating a positive environment
-include:
+To create a positive and productive environment, we encourage:  
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+- Using inclusive and welcoming language  
+- Respecting different perspectives and experiences  
+- Accepting constructive feedback gracefully  
+- Keeping discussions focused on what’s best for the community  
+- Being considerate and supportive of others  
 
-Examples of unacceptable behavior by participants include:
+Unacceptable behavior includes:  
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
-  advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+- Sexualized language, imagery, or unwanted attention  
+- Trolling, insults, personal attacks, or harassment  
+- Doxxing (sharing private info without permission)  
+- Any behavior that would be inappropriate in a professional setting  
 
-## Our Responsibilities
+## Responsibility & Enforcement  
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
+Project maintainers are responsible for setting clear expectations and addressing any violations of this Code of Conduct. They have the authority to edit, remove, or reject contributions that don’t align with these guidelines and may ban contributors engaging in harmful behavior.  
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
+If you experience or witness any unacceptable behavior, please report it to [db4471@nyu.edu](mailto:db4471@nyu.edu). All reports will be reviewed confidentially, and appropriate action will be taken.  
 
-## Scope
+## Scope  
 
-This Code of Conduct applies within all project spaces, and it also applies when
-an individual is representing the project or its community in public spaces.
-Examples of representing a project or community include using an official
-project e-mail address, posting via an official social media account, or acting
-as an appointed representative at an online or offline event. Representation of
-a project may be further defined and clarified by project maintainers.
+This Code of Conduct applies to all project spaces, including discussions, commits, and events where someone represents this project (such as using an official email or social media account).  
 
-## Enforcement
+## Attribution  
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at db4471@nyu.edu. All
-complaints will be reviewed and investigated and will result in a response that
-is deemed necessary and appropriate to the circumstances. The project team is
-obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html), version 1.4.  
 
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
-
-## Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
-
-[homepage]: https://www.contributor-covenant.org
-
-For answers to common questions about this code of conduct, see
-https://www.contributor-covenant.org/faq
+For FAQs about this Code of Conduct, see [Contributor Covenant FAQ](https://www.contributor-covenant.org/faq).  

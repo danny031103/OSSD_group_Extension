@@ -1,0 +1,12 @@
+{
+    "manifest_version":3,
+    "name":"Git Helper",
+    "version":"1.0",
+    "description":"Quick access to helpful Git commands",
+    "action":{
+      "default_popup":"popup.html",
+      "default_icon":"giticon.png"
+    },
+    "permissions":[]
+  }
+  
