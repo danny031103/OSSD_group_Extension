@@ -2,6 +2,4 @@
 Group activity to create a chrome extension.
 
 ## Project Description
-This extention aims to provide contact info for the github users. We were inspired by the LinkedIn extension we've used when networking with people during the recruiting seasons. With such an extension, we can directly get the email for the Github user that we would like to interact with.
-
-With that being said, the extension for Github user's email offers help when someone's trying to contact the members of a repository or project for building personal connections and exchanging meaningful ideas. We believe that it would be very helpful with the dynamic of open source engineering.
+The GitHub commands tip extension offers immediate help and hint on certain commands to people who are unfamiliar with the essential GitHub features. With help from the information, new contributors no longer have to google them one by one, but rather get helped with immediate display for hint for commands. Such project would enhance the user experience with GitHub and contributing to open source projects, especially when they are new to the system and unfamiliar with the hidden features.
