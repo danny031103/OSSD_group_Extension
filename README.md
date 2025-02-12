@@ -20,6 +20,9 @@ Please see our CODE_OF_CONDUCT.md file for expectations on contributor behavior.
 ## License
 Please see our LICENSE file for guidelines regarding the use and distribution of this project.
 
+## Icon
+We have borrowed the git icon for our project and do no not own it.
+
 ## Contributors
 Daniel Brito  
 Fox Zhang  
