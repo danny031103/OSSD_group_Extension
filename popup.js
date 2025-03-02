@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     const commands=[
-        "git init - Initialize a new Repo",
+        "the git init - Initialize a new Repo",
         "git clone <url> - Clone a Repo",
         "git status - Check changes",
         "git add . - Stage all changes",
@@ -21,5 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
         li.innerHTML=`<code>${cmd}</code>`;
         list.appendChild(li);
     });
+
     document.body.appendChild(list);
+
 });
