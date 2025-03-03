@@ -13,9 +13,51 @@
             color: black;
             font-weight: bold;
         }
-        ul { padding: 0; }
-        li { list-style: none; padding: 5px 0; }
-        code { background: #d9b5fc; padding: 2px 5px; border-radius: 4px; }
+        ul { 
+            padding: 0;
+        }
+        li { 
+            list-style: none; 
+            padding: 5px 0;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            align-items: center;
+            position:relative;
+        }
+        code { 
+            background: #b39ddb; 
+            padding: 2px 5px; 
+            border-radius: 4px;
+            color: white;
+            font-family: monospace;
+            position: relative; /* for tooltip positioning */
+         }
+         /* tooltip styling: shows when hovering over commands*/
+         code[data-tooltip]:hover::after{
+            content: attr(data-tooltip);
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #333;
+            color: #fff;
+            padding: 4px 8px;
+            border-radius: 4px;
+            white-space: nowrap;
+            z-index: 10;
+            font-size: 0.8em;
+         }
+         button {
+            margin-left: 10px;
+            cursor: pointer;
+            background-color: #8a4dce;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 4px 8px;
+            font-size: 0.9em;
+            font-family: inherit;
+         }
     </style>
 </head>
 <body>

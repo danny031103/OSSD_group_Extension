@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     const commands=[
-        "the git init - Initialize a new Repo",
+        "git init - Initialize a new Repo",
         "git clone <url> - Clone a Repo",
         "git status - Check changes",
         "git add . - Stage all changes",
@@ -15,13 +15,49 @@ document.addEventListener("DOMContentLoaded", () => {
         "git merge <branch> - Merge a branch into the current branch",
         "git stash - Temporarily save changes",
     ];
-    const list=document.createElement("ul");
+    const list=document.getElementById("git-commands");
     commands.forEach(cmd => {
         const li=document.createElement("li");
-        li.innerHTML=`<code>${cmd}</code>`;
-        list.appendChild(li);
-    });
 
-    document.body.appendChild(list);
+        // using the occurence of " - " to separate command and description (not "-"!)
+        const separator = " - ";
+        let commandPart = cmd;
+        let descriptionPart = "";
+        const idx = cmd.lastIndexOf(separator);
+        if(idx >-1){
+            commandPart = cmd.substring(0,idx);
+            descriptionPart = cmd.substring(idx + separator.length);
+        }
+
+
+        const codeElement = document.createElement("code");
+        codeElement.textContent = commandPart;
+        // add the description as data attribute
+        if (descriptionPart){
+            codeElement.setAttribute("data-tooltip", descriptionPart);
+        }
+        li.appendChild(codeElement);
+
+        // copy button
+        const copyButton = document.createElement("button");
+        copyButton.textContent = "copy";
+        // match the command font!
+        copyButton.style.fontFamily = "inherit";
+        copyButton.addEventListener("click", () => {
+          navigator.clipboard.writeText(commandPart)
+            .then(() => {
+              copyButton.textContent = "copied";
+              setTimeout(() => {
+                copyButton.textContent = "copy";
+              }, 1500);
+            })
+            .catch(err => {
+              console.error("Failed to copy: ", err);
+            });
+        });
+        li.appendChild(copyButton);
+        list.appendChild(li);
+
+    });
 
 });
